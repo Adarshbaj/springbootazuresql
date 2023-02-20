@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://springbootazure.database.windows.net:1433;database=AdarshDatabase;user=adarsh@springbootazure;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: adarsh
+    password: Bhanu@1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer@012Dialect
+
+server:
+  port: 9292
+      
